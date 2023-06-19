@@ -7,7 +7,6 @@ public class EBook extends Book {
         this.fileFormat = fileFormat;
     }
 
-    // Getter and setter methods for fileFormat
     public String getFileFormat() {
         return fileFormat;
     }

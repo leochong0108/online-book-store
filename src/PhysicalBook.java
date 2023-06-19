@@ -6,7 +6,6 @@ public class PhysicalBook extends Book {
         this.weight = weight;
     }
 
-    // Getter and setter methods for weight
     public double getWeight() {
         return weight;
     }
@@ -15,7 +14,6 @@ public class PhysicalBook extends Book {
         this.weight = weight;
     }
 
-    // Task methods
     public double calculateShippingCost() {
         double shippingCost = 4.50;
         double additionalWeight = weight - 500;
