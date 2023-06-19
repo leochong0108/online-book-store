@@ -27,7 +27,7 @@ public class PhysicalBook extends Book {
     }
 
     public double getWeightInPounds() {
-        return weight * 0.00220462; // 1 gram = 0.00220462 pounds
+        return weight * 0.00220462;
     }
 }
 
